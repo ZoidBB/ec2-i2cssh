@@ -24,8 +24,8 @@ Note:  Mac users with the latest version of XCode may run into a compilation err
 
 ## Usage
 
-    $cluster -h
-    Usage: cluster [-t TAGS] [-l USER] [-k KEY -s SECRET] [-r region]
+    $ec2-i2cssh -h
+    Usage: ec2-i2cssh [-t TAGS] [-l USER] [-k KEY -s SECRET] [-r region]
         -l, --login [USER]               Log in with this user
         -t, --tags [TAGS]                a 'space' sparated key value pair of tags and values (i.e. -t 'role=web,database environment=dev')
         -r, --region [REGION]            AWS region
@@ -33,8 +33,8 @@ Note:  Mac users with the latest version of XCode may run into a compilation err
         -p, --use-public-ip              Use public IP (default false)
 
 
-    $cluster -t Name=web,database                  #Connects to all web and database servers
-    $cluster -t 'role=web,database environment=dev'  #Connects to all web and database servers in the dev environment
+    $ec2-i2cssh -t Name=web,database                  #Connects to all web and database servers
+    $ec2-i2cssh -t 'role=web,database environment=dev'  #Connects to all web and database servers in the dev environment
 
 ## Notes
 

@@ -10,7 +10,7 @@ options = {
 }
 
 OptionParser.new do |opts|
-  opts.banner = "Usage: cluster [-t TAGS] [-l USER] [-k KEY -s SECRET] [-r region]"
+  opts.banner = "Usage: ec2-i2ssh [-t TAGS] [-l USER] [-k KEY -s SECRET] [-r region]"
 
   opts.on("-l", "--login [USER]", "Log in with this user") do |opt|
     options['user'] = opt

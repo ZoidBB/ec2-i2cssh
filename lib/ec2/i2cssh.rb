@@ -1,4 +1,4 @@
-require "ec2/clusterssh/version"
+require "ec2/i2cssh/version"
 
 module Ec2
   module Clusterssh

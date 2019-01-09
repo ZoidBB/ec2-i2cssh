@@ -1,7 +1,7 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'ec2/clusterssh/version'
+require 'ec2/i2cssh/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "ec2-i2cssh"
