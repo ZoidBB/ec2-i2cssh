@@ -5,7 +5,7 @@ require 'ec2/i2cssh/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "ec2-i2cssh"
-  spec.version       = Ec2::Clusterssh::VERSION
+  spec.version       = Ec2::I2cssh::VERSION
   spec.authors       = ["Ber Zoidberg"]
   spec.email         = ["ber.zoidberg@gmail.com"]
   spec.description   = %q{Use instance tags to launch a I2CSSH session to multiple EC2 instances.}

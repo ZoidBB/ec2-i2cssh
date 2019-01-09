@@ -1,4 +1,4 @@
-# Ec2::Clusterssh
+# Ec2::I2cssh
 
 Forked from gposton/ec2-clusterssh -- uses i2cssh instead of csshX on macos
 
