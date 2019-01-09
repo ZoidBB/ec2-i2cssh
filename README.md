@@ -1,10 +1,12 @@
 # Ec2::Clusterssh
 
+Forked from gposton/ec2-clusterssh -- uses i2cssh instead of csshX on macos
+
 Use instance tags to launch a ClusterSSH session to multiple EC2 instances.
 
 ## Installation
 
-    $ gem install ec2-clusterssh
+    $ gem install ec2-i2cssh
 
 Note:  Mac users with the latest version of XCode may run into a compilation error installing the json gem dependency.  If you see the following error during the gem installation, see this [page](https://langui.sh/2014/03/10/wunused-command-line-argument-hard-error-in-future-is-a-harsh-mistress/) for a workaround
 

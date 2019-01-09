@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'ec2/clusterssh/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "ec2-clusterssh"
+  spec.name          = "ec2-i2cssh"
   spec.version       = Ec2::Clusterssh::VERSION
-  spec.authors       = ["Glenn Poston"]
-  spec.email         = ["gposton1040@gmail.com"]
-  spec.description   = %q{Use instance tags to launch a ClusterSSH session to multiple EC2 instances.}
-  spec.summary       = %q{Use instance tags to launch a ClusterSSH session to multiple EC2 instances.}
-  spec.homepage      = "https://github.com/gposton/ec2-clusterssh"
+  spec.authors       = ["Ber Zoidberg"]
+  spec.email         = ["ber.zoidberg@gmail.com"]
+  spec.description   = %q{Use instance tags to launch a I2CSSH session to multiple EC2 instances.}
+  spec.summary       = %q{Use instance tags to launch a I2CSSH session to multiple EC2 instances.}
+  spec.homepage      = "https://github.com/zoidbb/ec2-i2cssh"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
@@ -21,4 +21,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
   spec.add_dependency 'aws-sdk'
+  spec.add_dependency 'i2cssh'
 end
